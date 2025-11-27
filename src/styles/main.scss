@@ -10,9 +10,12 @@ $text-color: #333;
 $hover-lift: 20px;
 $transition-duration: 0.5s;
 
-html, body {
-  height: 100%;
+body {
   margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .calendar {
